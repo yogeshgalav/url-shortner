@@ -20,6 +20,7 @@ class SuperAdminSeeder extends Seeder
                 'email' => 'superadmin@example.com',
                 'password' => Hash::make('password'),
                 'role_id' => 1, // Assuming super_admin role has id 1
+                'company_id' => null,
                 'email_verified_at' => now(),
                 'created_at' => now(),
                 'updated_at' => now(),
